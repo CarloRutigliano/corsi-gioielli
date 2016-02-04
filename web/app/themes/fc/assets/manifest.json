@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "admin.js": {
+      "files": [
+        "scripts/admin.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "admin.css": {
+      "files": [
+        "styles/admin.scss"
+      ],
+      "main": true
+    },
+    "modernizr.js": {
+      "vendor": ["assets/scripts/modernizr-custom.js"]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://corsi.dev"
+  }
+}

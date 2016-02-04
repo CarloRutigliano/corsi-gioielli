@@ -1,0 +1,23 @@
+{
+  "name": "Francesco Corsi Theme",
+  "homepage": "",
+  "authors": [
+    "Carlo rutiglianocarlo@gmail.com"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalize-scss": "~3.0.3",
+    "classie": "~1.0.1",
+    "font-awesome": "~4.4.0",
+    "imagesloaded": "~4.1.0"
+  },
+  "overrides": {
+    "fontawesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
+    }
+  }
+}

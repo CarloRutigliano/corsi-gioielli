@@ -1,0 +1,21 @@
+@mixin grey-color {
+  color: #E0E6E6;
+  color: rgb(224,230,230);
+}
+@mixin grey-back {
+  background: #E0E6E6;
+  background-color: rgb(224,230,230);
+}
+@mixin dgrey-color {
+  color: #94A8AD;
+  color: rgb(148,168,173);
+}
+@mixin dgrey-back {
+  background: #94A8AD;
+  background-color: rgb(148,168,173);
+}
+@mixin back {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+  
