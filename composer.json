@@ -36,7 +36,7 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.4.1",
+    "johnpbloch/wordpress": "4.4.2",
     "roots/soil": "dev-master",
     "wpackagist-plugin/polylang": "^1.7",
     "wpackagist-plugin/contact-form-7": "^4.3"

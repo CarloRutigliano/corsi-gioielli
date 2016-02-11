@@ -243,8 +243,8 @@ body.logged-in {
 /* pagine testi */
 .fixed .pennaimage {
   position: fixed;
-  right:$bodymargin;
-  bottom:$bodymargin;
+  right:35px;
+  bottom:40px;
   width: 30.26%;
   margin: 0% 0 0% 1.6%;
 }
@@ -400,6 +400,7 @@ article.post {
     a[rel~="category"] {
       padding-left: 5px;
       font-weight: 700;
+          font-size: .9em;
     }
   }
   .image {
@@ -418,6 +419,23 @@ article.post {
     }
   }
 }
+.lavori .section .text-column img.aligncenter {
+    width:397px;
+  height:284px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-142px 0 0 -198.5px;
+}
+.parole .section .text-column img.aligncenter {
+    width:397px;
+  height:284px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-142px 0 0 -198.5px;
+}
+
 
 @media (min-width: 54.000em){
   .half{
@@ -462,6 +480,14 @@ article.post {
   width: 100%;
   margin: 0 auto;
 
+}
+.lavori .section .text-column img.aligncenter {
+  position: relative;
+  margin-top: 20px;
+}
+.parole .section .text-column img.aligncenter {
+  position: relative;
+    margin-top: 20px;
 }
 article.post .image a[rel~="category"] {
       width: 20px;

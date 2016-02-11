@@ -6,7 +6,7 @@
 			    </a>
 		</div>
 		<div class="pennaimage">
-			         <img width="337" height="270" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/images/limapage.png" />
+			         <img width="470" height="294" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/images/limapage.png" />
 		</div>
 	</div>
 </header>
