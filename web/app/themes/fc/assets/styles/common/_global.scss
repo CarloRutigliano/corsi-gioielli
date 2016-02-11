@@ -482,12 +482,20 @@ article.post {
 
 }
 .lavori .section .text-column img.aligncenter {
+  max-width:397px;
   position: relative;
-  margin-top: 20px;
+  margin: 0 auto;
+  left: 0;
+  width:100%;
+  height:auto;
 }
 .parole .section .text-column img.aligncenter {
+  max-width:397px;
   position: relative;
-    margin-top: 20px;
+  margin: 0 auto;
+  left: 0;
+  width:100%;
+  height:auto;
 }
 article.post .image a[rel~="category"] {
       width: 20px;
