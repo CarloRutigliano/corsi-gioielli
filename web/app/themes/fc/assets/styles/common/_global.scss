@@ -372,11 +372,12 @@ span.page-numbers.current {
   color: $singletext;
 }
 .description {
-  padding: 0 5px;
+  padding: 0 50px 0px 0px;
   p {
       margin: 0;
   color: $singletext;
   font-size: 0.8em;
+  text-align: justify;
   }
 }
 .contact-info {
