@@ -82,9 +82,6 @@ body.logged-in {
 .container {
   margin: 0 $bodymargin;
 }
-.js .centered {
-  opacity: 0;
-}
 /*  SECTIONS  */
 .section {
   clear: both;
@@ -248,6 +245,12 @@ body.logged-in {
   width: 30.26%;
   margin: 0% 0 0% 1.6%;
 }
+.contatti .pennaimage > img {
+  display: none;
+}
+.contatti .text-column p {
+  font-size: .9em;
+}
 .fixed .pagelogo {
   position: fixed;
   right:0;
@@ -323,8 +326,8 @@ body.logged-in {
 }
 .grid {
   position: relative;
-  max-width: 460px;
-  margin: 50px auto;
+  max-width: 660px;
+  margin: 35px auto;
   text-align: center;
   ul{
   padding: 0;
@@ -332,8 +335,10 @@ body.logged-in {
   list-style: none;
   li {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
+    vertical-align: top;
+    margin: 0 0 4px 0px;
     a{
 
       img {
@@ -384,15 +389,15 @@ span.page-numbers.current {
     background-color: #fff;
     color: $singletext;
     width: 80%;
+    border: 1px solid $black;
 }
 div.wpcf7-response-output {
    width: 80%;
 
 }
 /*single */
-.centered .col {
-  margin-top: 0;
-  margin-bottom: 0;
+.centered  {
+  margin-top: 35px;
 }
 article.post {
   nav {
@@ -400,7 +405,7 @@ article.post {
     a[rel~="category"] {
       padding-left: 5px;
       font-weight: 700;
-          font-size: .9em;
+      font-size: .9em;
     }
   }
   .image {
@@ -410,13 +415,20 @@ article.post {
       position: absolute;
       bottom: 10px;
       right: 5px;
-      width: 40px;
-      height: 40px;
-      background: url(../images/cross.png) no-repeat center center;
+      width: 15px;
+      height: 15px;
+      background: url(../images/blackcross.png) no-repeat center center;
       background-color: $lightgrey;
       border-radius: 50%;
       text-indent: -9999px;
+      border: 1px solid #626262;
     }
+  }
+  .entry-title {
+  margin: 0;
+  font-size: .9em;
+  font-weight: 700;
+  color: $singletext;
   }
 }
 .lavori .section .text-column img.aligncenter {
@@ -443,13 +455,20 @@ article.post {
     }
   }
 @media screen and (max-width: 64.000em) {
+  .left, .right {
+    top: 0; bottom: 0;
+    width: 10px;
+    }
+    .wrap {
+      margin: 50px 20px;
+    }
   .half{
     min-height: 480px;
     }
   .front-page-header {
   &.abs {
-  width:200px;
-  margin:-215px 0 0 -100px;
+  width:280px;
+  margin:-215px 0 0 -140px;
   }
 
 }
@@ -505,6 +524,7 @@ article.post .image a[rel~="category"] {
   position: relative;
   left:0 !important;
 }
+
 .text-nav, .text-column {
   margin-top: 20px;
 }
@@ -512,12 +532,8 @@ article.post .image a[rel~="category"] {
   position: relative;
   right: 0 !important;
 }
-.centered {
-  margin-top: 0 !important;
-  padding: 10px;
-}
+
 .centered .col {
-    margin: 20px 0px;
     text-align: center;
 }
 .section.contact .text-column {

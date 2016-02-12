@@ -122,21 +122,6 @@
 
         $(window).trigger('resize');
       });
-
-     
-      /*$(window).resize(function() {
-          var dh = $(document).height();
-          var img = document.getElementById('singleimg'); 
-          var height = img.clientHeight;
-          var margin = dh - height;
-          margin = margin / 2;
-          $('.centered').css('top', margin);
-          console.log(dh);
-          console.log(height);
-          console.log(margin);
-        });
-
-        $(window).trigger('resize');*/
     }
 
 
@@ -152,7 +137,7 @@
         reslogo();
         resnav();
         respag();
-        rescenter();
+        //rescenter();
 
 
         

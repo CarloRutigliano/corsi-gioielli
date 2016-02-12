@@ -18,7 +18,7 @@ class CustomPostImages {
 	// Create array of images (could be added to a settings page instead of hardcoded)
 	private $cpi_images_array = array(
 		'0' => array(
-			'title' => 'Miniatura',
+			'title' => 'Miniatura 140x140',
 			'slug' => 'miniatura'
 		),
 		'1' => array(

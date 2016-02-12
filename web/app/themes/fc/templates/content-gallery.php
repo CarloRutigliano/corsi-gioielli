@@ -18,9 +18,9 @@
           
 	          if(isset($featured_meta['cpi-type-miniatura'][0])){
 	          $featured_meta_image = wp_get_attachment_url( $featured_meta['cpi-type-miniatura'][0] );
-	          echo '<img width="100" height="100" src="'.$featured_meta_image.'" />' ;
+	          echo '<img width="140" height="140" src="'.$featured_meta_image.'" />' ;
 	          } else {
-	            echo '<img width="100" height="100" src="http://placehold.it/100x100" />';
+	            echo '<img width="140" height="140" src="http://placehold.it/140x140" />';
 	          } ?>
 				
 				</li></a>
