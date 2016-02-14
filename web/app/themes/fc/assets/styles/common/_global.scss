@@ -61,7 +61,7 @@ body.logged-in {
 .top, .bottom, .left, .right {
   background: $lightgrey;
   position: fixed;
-  z-index: 9;
+  z-index: 9999;
   }
 .left, .right {
     top: 0; bottom: 0;
