@@ -32,3 +32,20 @@ function myprefix_unregister_tags() {
     unregister_taxonomy_for_object_type('post_tag', 'post');
 }
 add_action('init', 'myprefix_unregister_tags');
+
+/**
+ * @var $roleObject WP_Role
+ */
+$roleObject = get_role( 'editor' );
+if (!$roleObject->has_cap( 'edit_theme_options' ) ) {
+    $roleObject->add_cap( 'edit_theme_options' );
+}
+function hide_menu() {
+    global $submenu;
+    unset($submenu['themes.php'][6]); // remove customize link
+    remove_submenu_page( 'themes.php', 'themes.php' ); // hide the theme selection submenu
+    remove_submenu_page( 'themes.php', 'widgets.php' ); // hide the widgets submenu
+
+}
+
+add_action('admin_menu', 'hide_menu');
